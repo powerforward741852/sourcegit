@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    NSLog(@"好像有添加了文件啊");
     //第一次添加了手势返回的库
     NSLog(@"B出现什么东西");
     return YES;
