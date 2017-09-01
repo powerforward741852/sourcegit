@@ -17,7 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
     //第一次添加了手势返回的库
+    NSLog(@"B出现什么东西");
     return YES;
 }
 

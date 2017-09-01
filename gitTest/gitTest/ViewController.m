@@ -17,7 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //什么鬼东西啊
+    [self sleep];
 }
+
 -(void)say{
     NSLog(@"asjhdjkashdkjsadkjsad");
 }
@@ -26,6 +29,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)sleep{
+    NSLog(@"saasjhdasdasdjlk");
+}
+
 
 
 @end
