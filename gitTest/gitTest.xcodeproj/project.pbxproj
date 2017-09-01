@@ -14,6 +14,7 @@
 		D6653EC61F59976900FDC9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6653EC41F59976900FDC9C0 /* Main.storyboard */; };
 		D6653EC81F59976900FDC9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6653EC71F59976900FDC9C0 /* Assets.xcassets */; };
 		D6653ECB1F59976900FDC9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6653EC91F59976900FDC9C0 /* LaunchScreen.storyboard */; };
+		D6653ED51F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D6653ED41F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D6653EC71F59976900FDC9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6653ECA1F59976900FDC9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6653ECC1F59976900FDC9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6653ED31F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		D6653ED41F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		FAC3CCAC680B087D9FE7F01B /* libPods-gitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +85,7 @@
 		D6653EBA1F59976900FDC9C0 /* gitTest */ = {
 			isa = PBXGroup;
 			children = (
+				D6653ED21F59A0A200FDC9C0 /* FDFullscreenPopGesture */,
 				D6653EBE1F59976900FDC9C0 /* AppDelegate.h */,
 				D6653EBF1F59976900FDC9C0 /* AppDelegate.m */,
 				D6653EC11F59976900FDC9C0 /* ViewController.h */,
@@ -101,6 +105,15 @@
 				D6653EBC1F59976900FDC9C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6653ED21F59A0A200FDC9C0 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				D6653ED31F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.h */,
+				D6653ED41F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +241,7 @@
 			files = (
 				D6653EC31F59976900FDC9C0 /* ViewController.m in Sources */,
 				D6653EC01F59976900FDC9C0 /* AppDelegate.m in Sources */,
+				D6653ED51F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				D6653EBD1F59976900FDC9C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +401,7 @@
 				D6653ED11F59976900FDC9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
