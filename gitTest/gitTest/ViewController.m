@@ -21,6 +21,15 @@
     [self sleep];
 }
 
+-(void)say{
+    NSLog(@"asjhdjkashdkjsadkjsad");
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 -(void)sleep{
     NSLog(@"saasjhdasdasdjlk");
 }
