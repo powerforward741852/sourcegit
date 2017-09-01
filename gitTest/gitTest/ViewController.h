@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+- (instancetype)initWithDict:(NSDictionary*)dict;
++ (instancetype)ssssWithDict:(NSDictionary*)dict;
 
 @end
 
