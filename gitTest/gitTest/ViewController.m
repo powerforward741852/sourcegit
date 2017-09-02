@@ -20,10 +20,7 @@
     //什么鬼东西啊
     [self sleep];
 }
-    //推送回滚
--(void)pushstatus{
 
-}
 -(void)say{
     NSLog(@"asjhdjkashdkjsadkjsad");
 }
