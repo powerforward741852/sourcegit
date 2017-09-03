@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		557B81C108FA0B67C721367C /* libPods-gitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC3CCAC680B087D9FE7F01B /* libPods-gitTest.a */; };
+		D65C82C21F5BA74500E73246 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D65C82C11F5BA74500E73246 /* NetworkTool.m */; };
 		D6653EBD1F59976900FDC9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6653EBC1F59976900FDC9C0 /* main.m */; };
 		D6653EC01F59976900FDC9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6653EBF1F59976900FDC9C0 /* AppDelegate.m */; };
 		D6653EC31F59976900FDC9C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6653EC21F59976900FDC9C0 /* ViewController.m */; };
@@ -117,6 +118,8 @@
 /* Begin PBXFileReference section */
 		3B171956C5987C5B79E0ABF2 /* Pods-gitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitTest/Pods-gitTest.release.xcconfig"; sourceTree = "<group>"; };
 		CC92C45066FB81AD03340299 /* Pods-gitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitTest/Pods-gitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D65C82C01F5BA74500E73246 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		D65C82C11F5BA74500E73246 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
 		D6653EB81F59976900FDC9C0 /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6653EBC1F59976900FDC9C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6653EBE1F59976900FDC9C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -343,6 +346,8 @@
 		D6653ED21F59A0A200FDC9C0 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
+				D65C82C01F5BA74500E73246 /* NetworkTool.h */,
+				D65C82C11F5BA74500E73246 /* NetworkTool.m */,
 				D6653ED31F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.h */,
 				D6653ED41F59A0A200FDC9C0 /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
@@ -846,6 +851,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65C82C21F5BA74500E73246 /* NetworkTool.m in Sources */,
 				D6653FB51F59A73100FDC9C0 /* SDCycleScrollViewTests.m in Sources */,
 				D6653EC31F59976900FDC9C0 /* ViewController.m in Sources */,
 				D6653FA41F59A73100FDC9C0 /* TAAbstractDotView.m in Sources */,
