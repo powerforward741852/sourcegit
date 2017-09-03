@@ -30,6 +30,7 @@
 		D65C82EE1F5BACD700E73246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65C82F11F5BACD700E73246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65C82F31F5BACD700E73246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65C82F91F5BBE7000E73246 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 				D65C82E81F5BACD700E73246 /* ViewController.h */,
 				D65C82E91F5BACD700E73246 /* ViewController.m */,
 				D65C82EB1F5BACD700E73246 /* Main.storyboard */,
+				D65C82F91F5BBE7000E73246 /* NetworkTool.h */,
 				D65C82EE1F5BACD700E73246 /* Assets.xcassets */,
 				D65C82F01F5BACD700E73246 /* LaunchScreen.storyboard */,
 				D65C82F31F5BACD700E73246 /* Info.plist */,
@@ -387,6 +389,7 @@
 				D65C82F81F5BACD700E73246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
