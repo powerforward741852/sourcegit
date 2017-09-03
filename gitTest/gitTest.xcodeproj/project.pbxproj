@@ -125,7 +125,11 @@
 		D65C82C11F5BA74500E73246 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
 		D65C82C51F5BA84C00E73246 /* qc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qc.c; sourceTree = "<group>"; };
 		D65C82C61F5BA84C00E73246 /* qc1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qc1.c; sourceTree = "<group>"; };
+
 		D65C82CE1F5BAA7D00E73246 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+
+		D65C82CB1F5BAA2E00E73246 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+
 		D6653EB81F59976900FDC9C0 /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6653EBC1F59976900FDC9C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6653EBE1F59976900FDC9C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -332,7 +336,11 @@
 				D6653EC11F59976900FDC9C0 /* ViewController.h */,
 				D6653EC21F59976900FDC9C0 /* ViewController.m */,
 				D6653EC41F59976900FDC9C0 /* Main.storyboard */,
+
 				D65C82CE1F5BAA7D00E73246 /* NetworkTool.m */,
+
+				D65C82CB1F5BAA2E00E73246 /* NetworkTool.h */,
+
 				D65C82C51F5BA84C00E73246 /* qc.c */,
 				D65C82C61F5BA84C00E73246 /* qc1.c */,
 				D6653EC71F59976900FDC9C0 /* Assets.xcassets */,
